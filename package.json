@@ -1,0 +1,35 @@
+{
+  "name": "trello-clone",
+  "version": "1.0.0",
+  "description": "Clone of Trello App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development --open --hot",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashiyaman/trello-clone.git"
+  },
+  "author": "Ashiya Banu Amanulla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashiyaman/trello-clone/issues"
+  },
+  "homepage": "https://github.com/ashiyaman/trello-clone#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5-beta",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
